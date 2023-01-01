@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{Ashwin Mudaliar}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/resume.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="brand-title"><a href="/"><h1>Ashwin Mudaliar</h1></a></div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="/views/portfolio.html">Portfolio</a></li>
+          <li><a href="/views/resume.html">Resume</a></li>
+          <li><a href="/views/connect.html">Connect</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="img-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <img class="image" src="/ashwin.png" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-speed="400">
+        <img class="image" src="/panda.png" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-speed="400">
+        <img class="image" src="/organizations.png" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-speed="400">
+        <img class="image" src="/honorsawards.png" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-speed="400">
+        <img class="image" src="/testscores.png" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-speed="400">
+        <img class="image" src="/skills.png" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-speed="400">
+    </div>
+
+    <div class="title"><button class="trigger"><span class="click" id = "target"></span></button></div>
+
+    <div class="modal">
+      <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h1 id="modalTitle"></h1>
+          <p id="modalText"></p>
+      </div>
+    </div>
+
+    <script type="module" src="/resume.js"></script>
+    <script type="module" src="/navbar.js"></script>
+  </body>
+</html>

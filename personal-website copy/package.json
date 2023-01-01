@@ -1,0 +1,14 @@
+{
+  "name": "personal-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "npm run build && vite preview --port 8000"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
